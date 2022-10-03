@@ -8,5 +8,5 @@ N = int(input('Введите число '))
 s = ''
 while N > 0:
     s = str(N % 2) + s
-    N = N // 2
+    N = N // 2 #или N >>=1
 print(s)
