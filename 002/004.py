@@ -9,11 +9,11 @@ print(list)
 
 path = 'file.txt'
 data = open(path, 'r')
-int_data = [int(line) for line in data]
-print(int_data)
+newdata = [int(line) for line in data]
+print(newdata)
 data.close()
 
 mult = 1
-for i in int_data:
+for i in newdata:
     mult *= list[i]
 print(mult)
