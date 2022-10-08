@@ -13,4 +13,4 @@ print(ratios)
 p = numpy.poly1d(ratios)
 x = Symbol('x')
 with open('file5.txt', 'w') as data:
-    data.write(str(expand(p(x))).replace('**', '^'))
+    data.write(str(expand(p(x))).replace('**', '^')+" = 0")
