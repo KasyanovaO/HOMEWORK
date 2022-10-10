@@ -7,6 +7,6 @@ lst = [1, 2, 3, 5, 1, 5, 3, 10]
 
 unique = [i for i in lst if lst.count(i) < 2]
 repeating = list(set(i for i in lst if lst.count(i) > 1))
-duplicates = list(dict.fromkeys(lst)) # или list(set(lst))
+duplicates = list(dict.fromkeys(lst))  # или list(set(lst))
 print(
     f'список уникальных элементов {unique}, список повторяемых элементов {repeating}, список после удаления дубликатов {duplicates}')
