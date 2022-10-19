@@ -7,7 +7,7 @@
 
 
 
-lst='1 2 3 5 6 7'.split()
-for i in range(1,len()):
-    if A[i] - 1 == A[i-1]
+# lst='1 2 3 5 6 7'.split()
+# for i in range(1,len()):
+#     if A[i] - 1 == A[i-1]
  
